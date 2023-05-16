@@ -57,14 +57,19 @@
   width: 100%;
 }
 
-img {
+.img {
   display: block;
   text-align: left;
   float: left;
+  color:red;
   width: 24px;
-  height: 24px;
   margin-right: 16px;
   padding-top: 10px;
 
+}
+
+.redicon {
+  color:red;
+  width: 24px;
 }
 
