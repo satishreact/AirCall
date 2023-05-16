@@ -1,0 +1,70 @@
+#app {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+}
+
+#app .container {
+  width: 376px;
+  height: 666px;
+  z-index: 100;
+
+  background: white;
+  border-radius: 3px;
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, .9);
+}
+
+#app .container-view {
+  padding: 20px;
+    background: none;
+    border: none;
+    /* text-decoration: underline; */
+    cursor: pointer;
+}
+
+
+
+.container-list {
+    text-align: center;
+    height: calc(100% - 160px);
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.item-list{
+  border-top: 1px solid #ccc;
+    margin: 16px;
+    padding: 8px;
+    height: 55px;
+}
+.number {
+  font-size: 2em;
+    text-align: left;
+    padding: 8px 0;
+    letter-spacing: 4px;
+    float: left;
+}
+.details {
+  text-align: left;
+  font-size: 1.5em;
+  float: left;
+  padding-left: 42px;
+  width: 100%;
+}
+
+img {
+  display: block;
+  text-align: left;
+  float: left;
+  width: 24px;
+  height: 24px;
+  margin-right: 16px;
+  padding-top: 10px;
+
+}
+
